@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import stores from './store';
 import { createPolicy, deletePolicy } from './actionCreators/policyActions';
 import { createClaim } from './actionCreators/claimActions';
 import store from './store';
@@ -19,7 +18,9 @@ store.dispatch(createClaim('Jim', 50));
 console.log(store.getState());
 
 store.dispatch(deletePolicy('Bob'));
+
 console.log(store.getState());
+
 
 
 
