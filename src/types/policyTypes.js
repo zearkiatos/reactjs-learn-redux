@@ -1,0 +1,6 @@
+const POLICY_TYPES = {
+    CREATE: 'CREATE_POLICY',
+    DELETE: 'DELETE_POLICY'
+};
+
+export default POLICY_TYPES;
